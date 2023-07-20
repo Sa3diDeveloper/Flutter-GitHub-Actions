@@ -35,7 +35,7 @@ jobs:
         # !! This is for web only 
       - run: flutter build web
          # !! This is for ios only 
-      - run: flutter build ios --release --no-codesign
+      - run: flutter build ios 
 
         name: 'test'
       - run: flutter --version
